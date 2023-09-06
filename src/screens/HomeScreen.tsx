@@ -7,7 +7,7 @@ const HomeScreen = () => {
   const navigation = useNavigation();
 
   const handleNavigateToSecondScreen = () => {
-    navigation.navigate('SecondScreen');
+    navigation.navigate("SecondScreen" as never);
   };
 
   return (
